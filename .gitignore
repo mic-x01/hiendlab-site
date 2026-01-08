@@ -1,0 +1,51 @@
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+
+# Local development files
+dev/
+local/
+
+# Sensitive information (even though this is a static site)
+config/
+secrets/
+private/
+
+# Build artifacts (for future use)
+dist/
+build/
+.cache/
+
+# Coverage reports
+coverage/
+.nyc_output/
